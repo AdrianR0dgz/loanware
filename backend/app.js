@@ -5,6 +5,8 @@ import equipoRoutes    from './src/routes/equipos.routes.js'
 import categoriaRoutes from './src/routes/categorias.routes.js'
 // import solicitudRoutes from './src/routes/solicitudes.routes.js'
 
+module.exports = app;
+
 dotenv.config()
 
 const app = express()
